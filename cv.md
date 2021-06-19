@@ -1,9 +1,36 @@
-Советы от EPAM HR department о том, что желательно включить в CV:
-Имя и фамилия
-Контакты для связи
-Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении и способности быстро учиться и узнавать новое)
-Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-Примеры кода *
-Опыт работы. Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.**
-Образование (включая курсы, семинары, лекции, онлайн-обучение)
-Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+
+# Denis Karandashev #
+
+```Telegram: @DenisKarandashev```
+
+## Personal details and Skills
+
+I devoted more than 10 years to business consulting, after which I decided to radically change my profession. I studied Java on GeekBrains courses, as well as on my own on various platforms such as HackerRank, CodingBat, JavaRush.  
+Area of my interests: full-stack development of web applications using Java, Spring and modern UI technologies.  
+Here is a simple block of js code (to show markdown styles):
+
+## Work Experience
+### Junior Software Engineer
+*Deutsche Telekom IT RUS – St. Petersburg - September 2020 to Present*
+
+Working together with the Scrum software development team.  
+Developing new/rewrite existing features (web services) on backend and on frontend.  
+Technology stack: Java 8, Spring Boot 2, PostgreSQL 11, JavaScript, HTML, CSS.  
+* Project 1 (T-Vacation): Thymeleaf  
+* Project 2 (T-Plan): React.js, Microservices  
+
+Tools: IntelliJ IDEA, DBeaver, Postman, YouTrack / Jira, Jenkins, Confluence, Git, Maven.
+  
+## Education
+**Advanced training in Web development basics**  
+Kursk State University – 2020
+
+**Java Developer course**  
+GeekBrains.ru - 2019-2020 
+
+**Master's Degree**  
+St Petersburg State University - St Petersburg - 2014-2016 
+
+## Languages
+* English – Upper-Intermediate (B2)
+* Russian - Fluent 
