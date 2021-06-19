@@ -9,6 +9,14 @@ I devoted more than 10 years to business consulting, after which I decided to ra
 Area of my interests: full-stack development of web applications using Java, Spring and modern UI technologies.  
 Here is a simple block of js code (to show markdown styles):
 
+```javascript
+const myName = 'Denis';
+function greeting(name) {
+    console.log("Hello, I am %s", name);
+}
+greeting(myName);
+```
+
 ## Work Experience
 ### Junior Software Engineer
 *Deutsche Telekom IT RUS – St. Petersburg - September 2020 to Present*
