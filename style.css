@@ -25,3 +25,26 @@ body {
 .align-right {
   text-align: right;
 }
+
+.var {
+  font-weight: 700; 
+  color: navy;
+} 
+
+.varName {
+  color: rgb(0, 0, 205);
+  font-weight: 500;
+}
+
+.func {
+  .var;
+}
+
+.funcName {
+  color: rgb(75, 0, 130);
+}
+
+.string {
+  font-weight: 700;
+  color: rgb(205, 92, 92);
+} 
