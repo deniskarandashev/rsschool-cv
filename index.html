@@ -4,93 +4,131 @@
 <head>
   <meta charset="utf-8">
   <title>CV</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <h1>Denis Karandashev</h1>
-  </header>
-  <div class="align-right title">
-    Telegram: <a title="Use to chat with me" href="https://t.me/DenisKarandashev">@DenisKarandashev</a>
-  </div>
-  <div class="title">
-    Personal details and Skills
-  </div>
-  <div class="block">
-    <p>I devoted more than 10 years to business consulting, after which I decided to radically change my profession. I studied Java on GeekBrains courses, as well as on my own on various platforms such as HackerRank, CodingBat, JavaRush.</p>
-    <p>Area of my interests: full-stack development of web applications using Java, Spring and modern UI technologies.</p>
-  </div>
+  <main style="align-content: center;">
+    <header>
+      <h1 class="title">Denis Karandashev</h1>
+    </header>
+    <section>
+      <div class="block">
+        <table>
+          <tr>
+            <td>
+              <img src="https://klike.net/uploads/posts/2019-03/1551511801_1.jpg" alt="Avatar" height="250">
+            </td>
+            <!--             <td style="width: 40%">
+            </td> -->
+            <td>
+              <h2 class="title"> Contact details:</h2>
+              <ul>
+                <li>
+                  Telegram: <a title="Use to chat with me" href="https://t.me/DenisKarandashev">@DenisKarandashev</a>
+                </li>
+                <li>
+                  Email: karandashev.denis@gmail.com
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section>
+      <h3 class="title">
+        Personal details and Skills
+      </h3>
+      <div class="block">
+        <p>I devoted more than 10 years to business consulting, after which I decided to radically change my profession. I studied Java on GeekBrains courses, as well as on my own on various platforms such as HackerRank, CodingBat, JavaRush.</p>
+        <p>Area of my interests: full-stack development of web applications using Java, Spring and modern UI technologies.</p>
+      </div>
+    </section>
+    <section>
+      <h3 class="title">
+        Here is a simple block of js code:
+      </h3>
 
-  <div class="title">
-    Here is a simple block of js code:
-  </div>
-
-  <div class="block">
-    <pre><span><span class="var">const</span> <span class="varName">myName</span> = <span class="string">'Denis'</span>;
+      <div class="block">
+        <pre><span><span class="var">const</span> <span class="varName">myName</span> = <span class="string">'Denis'</span>;
 <span class="var">function</span> <span class="funcName">greeting</span>(<span class="varName">name</span>) {
     <span class="varName">console</span>.<span class="funcName">log</span>(<span class="string">"Hello, I am %s"</span>, <span class="varName">name</span>);
 }
 <span class="funcName">greeting</span>(<span class="varName">myName</span>);</span></pre>
-  </div>
-  
-  <div>
-    <div class="title">
-      Work Experience
-    </div>
-    <div class="block">
-      <h4>Junior Software Engineer</h4>
+      </div>
+    </section>
+    <section>
 
-      <h5>Deutsche Telekom IT RUS – St. Petersburg - September 2020 to Present</h5>
+      <h3 class="title">
+        Skills
+      </h3>
+      <div class="block">
+        <ul>
+          <li>Java 8, Spring Boot 2</li>
+          <li>SQL (PostgreSQL)</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Angular 8</li>
+          <li>GIT (GitHub), Jira</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h3 class="title">
+        Work Experience
+      </h3>
+      <div class="block">
+        <h4>Junior Software Engineer</h4>
 
-      <p>Working together with the Scrum software development team.</p>
-      <p>Developing new/rewrite existing features (web services) on backend and on frontend.</p>
-      <p>Technology stack: Java 8, Spring Boot 2, PostgreSQL 11.</p>
-      <ol>
-        <li>Project T-Vacation: Thymeleaf;</li>
-        <li>Project T-Plan: React.js, Microservices.
-        </li>
-      </ol>
-      <p>Tools: IntelliJ IDEA, DBeaver, Postman, YouTrack / Jira, Jenkins, Confluence, Git, Maven.</p>
-    </div>
-  </div>
+        <h5>Deutsche Telekom IT RUS – St. Petersburg - September 2020 to Present</h5>
 
-  <div>
-    <div class="title">
-      Education
-    </div>
-    <div class="block">
-      <ul>
-        <li>
-          <p>Advanced training in Web development basics: Kursk State University – 2020</p>
-        </li>
+        <p>Working together with the Scrum software development team.</p>
+        <p>Developing new/rewrite existing features (web services) on backend and on frontend.</p>
+        <p>Technology stack: Java 8, Spring Boot 2, PostgreSQL 11.</p>
+        <ol>
+          <li>Project T-Vacation: Thymeleaf</li>
+          <li>Project T-Plan: React.js, Microservices
+          </li>
+        </ol>
+        <p>Tools: IntelliJ IDEA, DBeaver, Postman, YouTrack / Jira, Jenkins, Confluence, Git, Maven.</p>
+      </div>
+    </section>
+    <section>
+      <h3 class="title">
+        Education
+      </h3>
+      <div class="block">
+        <ul>
+          <li>
+            <p>Advanced training in Web development basics: Kursk State University – 2020</p>
+          </li>
 
-        <li>
-          <p>Java Developer course: GeekBrains.ru - 2019-2020</p>
-        </li>
+          <li>
+            <p>Java Developer course: GeekBrains.ru - 2019-2020</p>
+          </li>
 
-        <li>
-          <p>Master's Degree: St Petersburg State University - St Petersburg - 2014-2016</p>
-        </li>
-      </ul>
-    </div>
-  </div>
+          <li>
+            <p>Master's Degree: St Petersburg State University - St Petersburg - 2014-2016</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-  <div>
-    <div class="title">
-      Languages
-    </div>
-    <div class="block">
-      <ul>
-        <li>
-          <p>English – Upper-Intermediate (B2)</p>
-        </li>
-        <li>
-          <p>Russian - Fluent</p>
-        </li>
-      </ul>
-    </div>
-  </div>
+    <section>
+      <h3 class="title">
+        Languages
+      </h3>
+      <div class="block">
+        <ul>
+          <li>
+            <p>English – Upper-Intermediate (B2)</p>
+          </li>
+          <li>
+            <p>Russian - Fluent</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
   <br />
   <hr />
   <footer>
