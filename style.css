@@ -1,0 +1,50 @@
+body {
+  background-image: url(https://image.freepik.com/free-vector/halftone-background_1053-327.jpg);
+  background-size: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.block {
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 12px;
+  padding: 12px;
+  background-color: rgba(0, 125, 215, 0.5);
+}
+
+.block:hover {
+  background-color: rgba(0, 125, 215, 0.8);
+}
+
+.title {
+  font-weight: bold;
+  margin: 12px;
+  padding-top: 12px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.var {
+  font-weight: 700; 
+  color: navy;
+} 
+
+.varName {
+  color: rgb(0, 0, 205);
+  font-weight: 500;
+}
+
+.func {
+  .var;
+}
+
+.funcName {
+  color: rgb(75, 0, 130);
+}
+
+.string {
+  font-weight: 700;
+  color: rgb(205, 92, 92);
+} 
